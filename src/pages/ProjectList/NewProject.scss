@@ -1,0 +1,41 @@
+.new-project__table {
+  font-size: 1rem;
+  width: 70%;
+  border-radius: 10%;
+}
+
+.new-project__table_head {
+  background-color: rgb(250, 244, 235);
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+}
+
+.new-project__table input {
+  font-size: 1rem;
+}
+
+.new-project__table td {
+  padding: 0.5rem;
+}
+
+.new-project__table td {
+  border: 1px solid rgb(255, 209, 130);
+}
+
+.new-project-input-member__table {
+  font-size: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+.new-project-input-member__table thead tr {
+  background-color: rgb(151, 192, 253);
+}
+
+.new-project-input-member__table td {
+  border: 1px solid rgb(87, 153, 252);
+}
+
+.new-project__table button{
+  font-size: 0.8rem;
+}

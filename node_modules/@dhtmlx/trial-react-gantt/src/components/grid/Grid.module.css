@@ -1,0 +1,7 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-right: 1px solid var(--wx-border-color);
+  overflow: hidden;
+}

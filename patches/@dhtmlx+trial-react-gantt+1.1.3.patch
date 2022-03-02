@@ -1,0 +1,22 @@
+diff --git a/node_modules/@dhtmlx/trial-react-gantt/src/components/sidebar/Sidebar.js b/node_modules/@dhtmlx/trial-react-gantt/src/components/sidebar/Sidebar.js
+index e410bee..e1a9cef 100644
+--- a/node_modules/@dhtmlx/trial-react-gantt/src/components/sidebar/Sidebar.js
++++ b/node_modules/@dhtmlx/trial-react-gantt/src/components/sidebar/Sidebar.js
+@@ -96,7 +96,16 @@ export default class Sidebar extends Component {
+             <>
+               <Text
+                 autofocus={true}
+-                label={_("gantt", "Name")}
++                label={_("gantt", "ID")}
++                value={task.id}
++                change={(v) => this.update("id", v)}
++              />
++
++
++
++              <Text
++                autofocus={true}
++                label={_("gantt", "이름")}
+                 value={task.text}
+                 change={(v) => this.update("text", v)}
+               />

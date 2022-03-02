@@ -1,0 +1,56 @@
+.schedule__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // justify-content: space-around;
+  align-items: center;
+}
+
+.schedule__card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  // background-color: #fff;
+  border: 2px solid #969090;
+  border-radius: 10px;
+  // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  margin: 10px;
+}
+
+.schedule__card__row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.2rem;
+}
+
+.schedule__card__row_top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.2rem;
+}
+
+.schedule__card__row__text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.schedule__all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #969090;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}

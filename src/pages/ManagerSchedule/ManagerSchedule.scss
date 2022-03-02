@@ -1,0 +1,58 @@
+.manager-schedule__th, .manager-schedule__td, .manager-schedule__tr {
+  white-space: break-spaces;
+  border: 1px solid #ddd;
+}
+
+.manager-schedule__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  height: 15%;
+  color: black;
+}
+
+.manager-schedule__div > div{
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+}
+
+.manager-schedule__td {
+  background-color: rgba(114, 114, 114, 0.185);
+}
+
+.today {
+  background-color: #fff;
+  font-weight: 600;
+}
+
+.ymyou {
+  border: 1px solid red;
+}
+
+.wrsong {
+  border: 1px solid orange;
+}
+
+.twinrain {
+  border: 1px solid green;
+}
+
+.ysyoun {
+  border: 1px solid darkblue;
+}
+
+.digitallcs {
+  border: 1px solid blue;
+}
+
+.kyu698 {
+  border: 1px solid purple;
+}

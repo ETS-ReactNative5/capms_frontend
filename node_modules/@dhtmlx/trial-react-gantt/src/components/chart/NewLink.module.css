@@ -1,0 +1,10 @@
+.new {
+  position: relative;
+  pointer-events: none;
+}
+
+.line {
+  stroke: var(--wx-gantt-link-color);
+  stroke-width: 2;
+  fill: none;
+}

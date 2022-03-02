@@ -1,0 +1,45 @@
+.orderBtn {
+  background: none;
+  border: none;
+  margin-bottom: 0.3rem;
+  padding: 0.1rem;
+}
+
+.project-list__table {
+  font-size: 0.7rem;
+}
+
+.project-list__th, .project-list__td {
+  white-space: break-spaces;
+  text-align: center;
+}
+
+.meeting__th_div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-list__td_cost {
+  text-align: right;
+}
+
+.project__status_start {
+  background-color: rgba(153, 231, 255, 0.788);
+}
+
+.project__status_ready {
+  background-color: rgba(255, 255, 153, 0.788);
+}
+
+.project__status_progress {
+  background-color: rgba(255, 255, 255, 0.788);
+}
+
+.project__status_end {
+  background-color: rgba(209, 209, 209, 0.788);
+}
+
+.project__status_dropped {
+  background-color: rgba(150, 150, 150, 0.788);
+}

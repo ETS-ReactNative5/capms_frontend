@@ -1,0 +1,21 @@
+.orderBtn {
+    background: none;
+    border: none;
+    margin-bottom: 0.3rem;
+    padding: 0.1rem;
+    // color: white;
+  }
+
+  .meeting__table {
+    font-size: 0.9rem;
+  }
+  
+  .meeting__th, .meeting__td {
+    white-space: break-spaces;
+  }
+
+  .meeting__th_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }

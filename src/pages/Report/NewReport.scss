@@ -1,0 +1,17 @@
+
+.newReport__td {
+  width: 50%;
+  vertical-align: top !important;
+}
+
+.newReport__td > textarea {
+  width: 100%;
+  min-height: 30rem;
+}
+
+.newReport__p {
+  width: 100%;
+  height: auto;
+  white-space: break-spaces;
+  word-wrap: break-word;
+}
